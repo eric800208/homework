@@ -1,0 +1,566 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+section{
+  padding: 100px 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 85%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #222;
+  z-index: 100;
+}
+
+.container{
+  widows: 85% ;
+  max-width:1170px;
+  margin:0 auto;
+  position: relative;
+}
+
+nav{
+  height:40px;
+  
+}
+
+#logo{
+  float: left;
+}
+
+#logo > a >img{
+  height:40px;
+  width:80px;
+}
+
+.nav{
+  float:right;
+}
+
+.nav ul{
+  
+  list-style-type:none;
+  display:inline-block;
+}
+
+.nav li{
+  display:inline-block;
+}
+
+.nav li a{
+  text-decoration:none;
+  color:#fff;
+  display:block;
+  padding:10px 12px;
+}
+
+/*=====================================*/
+
+.home_bg{
+  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width:100%;
+  height:100%;
+}
+
+.overlay{
+  background:rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%
+}
+
+.container_table{
+  display: table;
+  position: relative;
+  width:100%;
+  height:100%;
+}
+
+.container_table_cell{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+ }
+
+ .container_table_cell h2{
+  color:white;
+  font-size:54px;
+  text-transform: capitalize;
+ }
+
+ .social_icons a{
+  color:#fff;
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 7px;
+  font-size: 19px;
+ }
+
+ /*=============================*/
+
+
+
+ h2{
+   margin-bottom: 75px;
+   text-align: center;
+   font-size: 40px;
+   line-height: 50px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+ }
+
+ .col_left, .col_right{
+   float: left;
+   width:50%;
+   padding: 0 15px;
+ }
+
+ .personal-info h3 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.personal-info p {
+  color: #767676;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.skill {
+  margin: 30px auto;
+}
+
+.skill li {
+  font-size: 15px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.button-group .download_cv, .button-group .hire_me {
+  display: inline-block;
+}
+
+.button-group .download_cv {
+  margin-right: 18px;
+}
+
+.button-group a {
+  display: block;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 38px;
+  text-transform: capitalize;
+}
+
+.button-group a:hover {
+  background: #000;
+  color: #fff;
+  transition: all .4s linear;   /* add this */
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*=============================*/
+
+.my_service{
+  background-color: #f9f9f9;
+}
+
+.service-content{
+  float:left;
+  width:33.3333%;
+  padding: 0 15px;
+}
+
+.service-content i{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.service-content h3{
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin:13px 0 8px 0;
+  text-transform: capitalize;
+}
+
+.service-content p{
+  color:#767676;
+  font-size: 14px;
+}
+
+/*========================*/
+
+.col-horizontal{
+padding-bottom: 16px;
+border-bottom: 1px solid #000;
+}
+
+.col-horizontal:last-child{
+  border-bottom: 0;
+}
+
+h3.resume-subtitle{
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 12px;
+  text-transform: capitalize;
+}
+
+
+
+.col-horizontal .col-item{
+float:left;
+width:50%;
+padding: 0 15px;
+}
+
+.experience-year{
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 20px;
+  margin:15px 0 10px 0;
+}
+
+.resumbe-detail{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
+/*==========================*/
+
+.quotes{
+  background-image: url(https://www.atlantisbahamas.com/media/Things%20To%20Do/Water%20Park/Beaches/Hero/Experiences_Beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.quote-inner{
+  text-align: center;
+  color: #fff;
+}
+
+.quote-inner h3{
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.quote-inner p{
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.quote-inner a{
+  color: #fff;
+  border:1px solid #fff;
+  border-radius: 11px;
+  padding: 12px 49px;
+  display: inline-block;
+  margin-top: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*======================*/
+
+.work{
+  background-color: #f7f7f7;
+}
+
+.col-work{
+  float:left;
+  width: 33.333333%;
+  padding: 0 15px;
+}
+
+.col-work a{
+  display: block;
+  margin-bottom: 14px;
+  position: relative;
+  transition: .2s linear;
+  -webkit-transition:  .2s linear;
+  -moz-transition: .2s linear;
+  -o-transition: .2s linear;
+  -ms-transition: .2s linear;
+  top:0;
+  left: 0;
+}
+
+.col-work a:hover{
+  top: -5px;
+  box-shadow: 0 16px 222px 0 rgba(90,91, 95, 0.3)
+}
+
+/*===============*/
+
+.contact-form{
+ width:65%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.contact-form .form-input:first-child,
+.contact-form .form-input:nth-child(2) {
+  float:left;
+  width:50%;
+  padding: 0 15px;
+  
+}
+
+.contact-form .form-input:nth-child(3) {
+width:100%;
+padding: 0 15px;
+}
+
+input.form-style{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+  padding-bottom: 10px;
+}
+
+textarea#message{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+}
+
+.form-submit{
+  text-align: left;
+  padding: 0 15px;
+}
+
+.form-submit input{
+    padding: 15px 60px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: transparent;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .4s linear;
+    -webkit-transition: .4s linear;
+    -moz-transition: .4s linear;
+    -ms-transition: .4s linear;
+    -o-transition: .4s linear;
+}
+
+.form-submit input:hover{
+  background-color: #000;
+  color:#fff;
+  
+}
+
+/*===================*/
+
+footer{
+  padding: 80px 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content{
+  line-height: 22px;
+}
+
+.footer-social-icon a i{
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin:15px 15px 0 0;
+}
+
+/**********code start from here***********/
+
+#bar{
+  display:none;
+}
+
+#nav{
+  display:none;
+}
+
+@media screen and (max-width:768px){
+  .summary{
+     display:flex;
+     flex-flow:column nowrap
+  }
+  
+  .col_left, .col_right, .skill, .download_cv, .hire_me{
+   width:100%; 
+  }
+  
+  .download_cv{
+    margin-bottom:15px; 
+  }
+  
+  .service-items{
+     display:flex;
+     flex-flow:column nowrap
+  }
+  
+  .service-items > .service-content {
+    width:100%;
+    margin-top:30px;
+  }
+  
+  .col-horizontal{
+    display:flex;
+    flex-flow:column nowrap;
+  }
+  
+  .col-horizontal > .col-item{
+    width:100%;
+  }
+  
+  .work-items{
+    display:flex;
+    flex-flow:column nowrap;
+  }
+  
+  .work-items > .col-work{
+    width:100%;
+  }
+  
+  .contact-form > form {
+    display:flex;
+    flex-flow:column nowrap;
+  }
+ 
+  .form-input > input{
+    width:210%;
+  }
+  
+  .contact-form{
+    width:110%;
+  }
+  
+  .form-input > input {
+  font-size:18px;
+  margin-bottom:20px;
+  }
+  
+  textarea{
+    position:relative;
+   
+    font-size:18px;
+  }
+  
+  .container_table_cell > h2{
+    font-size:30px;
+  }
+  
+  #logo{
+    float:none;
+ }
+  
+  .nav{
+    display:flex;
+    flex-flow:column nowrap;
+    background-color:#222;
+    width:100%;
+  }
+  
+  .nav > li{
+    border-top:1px solid white;
+    text-align:center;
+  }
+  #bar{
+    display:block;
+    position:absolute;
+    top:7px;
+    right:-40px;
+    font-size:20px;
+    color:#fff;
+  }
+  
+  .nav{
+    display:none;
+  }
+  
+  #nav:checked ~.nav{
+    display:flex;
+  }
+  
+ }
+
+@media screen and (min-width:768px) and (max-width:841px) {
+  .hire_me{
+  margin-top:10px;
+  }
+}
